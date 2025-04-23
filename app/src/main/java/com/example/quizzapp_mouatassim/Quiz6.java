@@ -21,7 +21,7 @@ public class Quiz6 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quiz5);
+        setContentView(R.layout.activity_quiz6);
         rg=(RadioGroup) findViewById(R.id.rg);
         bNext=(Button) findViewById(R.id.bNext);
         Intent intent=getIntent();
