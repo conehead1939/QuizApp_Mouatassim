@@ -43,8 +43,7 @@ public class Quiz7 extends AppCompatActivity {
                     Intent intent=new Intent(Quiz7.this,Quiz8.class);
                     intent.putExtra("score",score);
                     startActivity(intent);
-                    //overridePendingTransition(R.anim.fadein,R.anim.fadeout);
-                    overridePendingTransition(R.anim.exit,R.anim.entry);
+
                     finish();
                 }
 

@@ -12,15 +12,15 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Quiz 1"
+        android:text="Quiz 10"
         android:textSize="25sp"
         android:textStyle="bold"
         />
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/q1"/>
+        android:layout_height="300dp"
+        android:src="@drawable/q10"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -56,9 +56,6 @@
         android:layout_height="wrap_content"
         android:text="Next"
         android:layout_marginTop="20dp"/>
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="80dp"
-        android:src="@drawable/logoo"/>
+
 
 </LinearLayout>

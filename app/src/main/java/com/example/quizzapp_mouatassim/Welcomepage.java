@@ -28,7 +28,7 @@ public class Welcomepage extends AppCompatActivity {
 
                     Intent intent = new Intent(Welcomepage.this, Quiz1.class);
                     startActivity(intent);
-                    overridePendingTransition(R.anim.exit, R.anim.entry);
+
                     finish();
             }
         });
