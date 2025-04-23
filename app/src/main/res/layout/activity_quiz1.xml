@@ -24,7 +24,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="A cette intersection, je laisse la priorité à droite :"
+        android:text="What is the primary purpose of a catalytic converter in an exhaust system?"
         android:textSize="20sp"
         android:layout_marginBottom="20sp"
         android:textStyle="bold"/>
@@ -39,14 +39,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Oui" />
+            android:text="To increase the engine’s horsepower" />
 
         <RadioButton
             android:id="@+id/rb2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Non" />
+            android:text="To reduce harmful emissions by converting toxic gases into less harmful substances" />
     </RadioGroup>
     <Button
         android:id="@+id/bNext"

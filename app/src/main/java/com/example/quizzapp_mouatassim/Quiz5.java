@@ -17,7 +17,7 @@ public class Quiz5 extends AppCompatActivity {
     RadioButton rb;
     Button bNext;
     int score;
-    String RepCorrect="Non";
+    String RepCorrect="To cool the compressed air before it enters the engine";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,7 +40,7 @@ public class Quiz5 extends AppCompatActivity {
                         score+=1;
                         //Toast.makeText(getApplicationContext(),score+"",Toast.LENGTH_SHORT).show();
                     }
-                    Intent intent=new Intent(Quiz5.this,Score.class);
+                    Intent intent=new Intent(Quiz5.this,Quiz6.class);
                     intent.putExtra("score",score);
                     startActivity(intent);
                     //overridePendingTransition(R.anim.fadein,R.anim.fadeout);

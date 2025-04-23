@@ -17,7 +17,7 @@ public class Quiz1 extends AppCompatActivity {
     RadioButton rb;
     Button bNext;
     int score=0;
-    String RepCorrect="Non";
+    String RepCorrect="To reduce harmful emissions by converting toxic gases into less harmful substances";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

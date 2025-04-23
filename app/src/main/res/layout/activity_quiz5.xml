@@ -24,7 +24,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="En conduisant, je peux utiliser mon portable pour écrire un texto ou composer un numéro :"
+        android:text="In a turbocharged engine, what is the purpose of the intercooler?"
         android:textSize="20sp"
         android:layout_marginBottom="20sp"
         android:textStyle="bold"/>
@@ -39,14 +39,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Oui" />
+            android:text="To regulate oil temperature in the turbocharger" />
 
         <RadioButton
             android:id="@+id/rb2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Non" />
+            android:text="To cool the compressed air before it enters the engine" />
 
 
     </RadioGroup>

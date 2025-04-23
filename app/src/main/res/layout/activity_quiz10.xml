@@ -4,27 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Quiz2"
+    tools:context=".Quiz10"
     android:orientation="vertical"
     android:layout_marginLeft="20dp"
     android:layout_marginRight="20dp"
     android:gravity="center">
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Quiz 2"
+        android:text="Quiz 1"
         android:textSize="25sp"
         android:textStyle="bold"
         />
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/q2"/>
+        android:src="@drawable/q1"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Which part of the engine controls the timing of the intake and exhaust valves?"
+        android:text="Why is synthetic oil often recommended for high-performance engines?"
         android:textSize="20sp"
         android:layout_marginBottom="20sp"
         android:textStyle="bold"/>
@@ -39,17 +39,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Camshaft" />
+            android:text="It contains more detergents which clean the engine faster
+
+" />
 
         <RadioButton
             android:id="@+id/rb2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Crankshaft" />
-
+            android:text="It provides better thermal stability and lubrication under extreme conditions" />
     </RadioGroup>
-
     <Button
         android:id="@+id/bNext"
         android:layout_width="match_parent"

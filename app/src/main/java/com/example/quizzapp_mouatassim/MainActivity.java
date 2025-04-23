@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 //Step 4: Traitement
                 if (etLogin.getText().toString().equals("toto") && etPassword.getText().toString().equals("123")){
-                    startActivity(new Intent(MainActivity.this, Quiz1.class));
+                    startActivity(new Intent(MainActivity.this, Welcomepage.class));
                 }
                 else {
                     Toast.makeText(getApplicationContext(),"Login or password incorrect !",Toast.LENGTH_SHORT).show();

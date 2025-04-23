@@ -4,27 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Quiz2"
+    tools:context=".Quiz6"
     android:orientation="vertical"
     android:layout_marginLeft="20dp"
     android:layout_marginRight="20dp"
     android:gravity="center">
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Quiz 2"
+        android:text="Quiz 6"
         android:textSize="25sp"
         android:textStyle="bold"
         />
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/q2"/>
+        android:src="@drawable/q5"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Which part of the engine controls the timing of the intake and exhaust valves?"
+        android:text="What does OBD-II refer to in automotive diagnostics?"
         android:textSize="20sp"
         android:layout_marginBottom="20sp"
         android:textStyle="bold"/>
@@ -39,14 +39,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Camshaft" />
+            android:text="On-Board Diagnostics, Second Generation" />
 
         <RadioButton
             android:id="@+id/rb2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Crankshaft" />
+            android:text="Oil and Brake Detection, Version II" />
+
 
     </RadioGroup>
 
@@ -60,5 +61,6 @@
         android:layout_width="50dp"
         android:layout_height="80dp"
         android:src="@drawable/logoo"/>
+
 
 </LinearLayout>

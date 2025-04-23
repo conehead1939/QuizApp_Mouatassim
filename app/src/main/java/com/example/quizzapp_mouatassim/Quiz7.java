@@ -11,17 +11,17 @@ import android.widget.RadioGroup;
 import android.widget.Toast;
 
 
-public class Quiz2 extends AppCompatActivity {
+public class Quiz7 extends AppCompatActivity {
 
     RadioGroup rg;
     RadioButton rb;
     Button bNext;
     int score;
-    String RepCorrect="Camshaft";
+    String RepCorrect="To measure the amount of air entering the engine";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quiz2);
+        setContentView(R.layout.activity_quiz5);
         rg=(RadioGroup) findViewById(R.id.rg);
         bNext=(Button) findViewById(R.id.bNext);
         Intent intent=getIntent();
@@ -40,7 +40,7 @@ public class Quiz2 extends AppCompatActivity {
                         score+=1;
                         //Toast.makeText(getApplicationContext(),score+"",Toast.LENGTH_SHORT).show();
                     }
-                    Intent intent=new Intent(Quiz2.this,Quiz3.class);
+                    Intent intent=new Intent(Quiz7.this,Quiz8.class);
                     intent.putExtra("score",score);
                     startActivity(intent);
                     //overridePendingTransition(R.anim.fadein,R.anim.fadeout);
